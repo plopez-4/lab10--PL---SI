@@ -24,14 +24,22 @@ class TestCalculator(unittest.TestCase):
             self.assertEqual(multiply(0, 10), 0)  # Zero multiplication
 
     def test_divide(self):
-            self.assertEqual(div(10, 2), 5)  # Basic division
-            self.assertEqual(div(-20, 5), -4)  # Negative number division
-            self.assertRaises(ZeroDivisionError, div, 8, 0)  # Division by zero
+
+            # Check standard division
+            self.assertEqual(div(10, 2), 5)
+
+            # Check negative number division
+            self.assertEqual(div(-20, 5), -4)
+
+            # Check division by zero properly raises an error
+            with self.assertRaises(ZeroDivisionError):
+                div(8, 0)
 
 
 
 
-    ######## Partner 2
+
+                ######## Partner 2
     def test_divide_by_zero(self):  # 1 assertion
         with self.assertRaises(ZeroDivisionError):
             div(5, 0)
