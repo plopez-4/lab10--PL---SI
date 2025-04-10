@@ -7,6 +7,20 @@ calculator.py
 One function per operation, in order
 """
 
+def square_root(a):
+    """Returns the square root of a.
+
+    Raises:
+        ValueError: If a is negative.
+    """
+    if a < 0:
+        raise ValueError("Cannot calculate the square root of a negative number.")
+    return math.sqrt(a)
+
+
+def hypotenuse(a, b):
+    """Returns the hypotenuse of a right triangle given sides a and b."""
+    return math.hypot(a, b)
 
 
 
