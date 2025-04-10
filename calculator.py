@@ -22,9 +22,10 @@ def subtract(a, b):
 
 def multiply(a, b):
     """Returns the product of a and b."""
+    print("123456")
     return a * b
-
-
+###
+###
 def divide(a, b):
     """Returns the result of dividing b by a.
 
