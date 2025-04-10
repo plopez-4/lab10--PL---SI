@@ -1,8 +1,9 @@
-import unittest
-from calculator import *
 # git link-https://github.com/plopez-4/lab10--PL---SI.git
 # Partner 1: Pierce Lopez
 # Partner 2: Solomiia Ivanovska
+
+import unittest
+from calculator import *
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
