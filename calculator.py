@@ -68,7 +68,7 @@ def mul(a,b):
 def div(a,b):
     if a == 0:
         raise ZeroDivisionError("Division by zero is not allowed.")
-    return b / a
+    return a / b
 def log(a,b):
     if a <= 0 or b <= 0 or a == 1:
         raise ValueError("Invalid inputs for logarithm. Base must be > 0, != 1, and value must be > 0.")
