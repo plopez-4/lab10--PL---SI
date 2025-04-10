@@ -1,3 +1,7 @@
+# git link-https://github.com/plopez-4/lab10--PL---SI.git
+# Partner 1: Pierce Lopez
+# Partner 2: Solomiia Ivanovska
+
 import math
 
 """
