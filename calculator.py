@@ -37,15 +37,7 @@ def multiply(a, b):
 
     return a * b
 
-def divide(a, b):
-    """Returns the result of dividing b by a.
 
-    Raises:
-        ZeroDivisionError: If a is zero.
-    """
-    if a == 0:
-        raise ZeroDivisionError("Division by zero is not allowed.")
-    return b / a
 
 
 def logarithm(a, b):
