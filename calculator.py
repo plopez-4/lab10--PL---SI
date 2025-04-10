@@ -22,10 +22,9 @@ def subtract(a, b):
 
 def multiply(a, b):
     """Returns the product of a and b."""
-    print("123456")
+
     return a * b
-###
-###
+
 def divide(a, b):
     """Returns the result of dividing b by a.
 
@@ -51,4 +50,24 @@ def logarithm(a, b):
 def exponent(a, b):
     """Returns a raised to the power of b."""
     return a ** b
+
+def add(a,b):
+    return a + b
+def sub(a,b):
+    return a - b
+def mul(a,b):
+    return a * b
+def div(a,b):
+    if a == 0:
+        raise ZeroDivisionError("Division by zero is not allowed.")
+    return b / a
+def log(a,b):
+    if a <= 0 or b <= 0 or a == 1:
+        raise ValueError("Invalid inputs for logarithm. Base must be > 0, != 1, and value must be > 0.")
+    return math.log(b, a)
+def exp(a,b):
+    if a <= 0 or b <= 0 or a == 1:
+        raise ValueError("Invalid inputs for logarithm. Base must be > 0, != 1, and value must be > 0.")
+    return math.log(b, a)
+
 
