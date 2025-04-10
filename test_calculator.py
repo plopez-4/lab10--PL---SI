@@ -66,13 +66,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(math.sqrt(4), 2)  # Perfect square
         self.assertAlmostEqual(math.sqrt(2), 1.41421356237, places=10)  # Approximate value for √2
 
-    # def test_sqrt(self): # 3 assertions
-    #     # Test for invalid argument, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
-    #     #    square_root(NUM)
-    #     # Test basic function
-    #     fill in code
-    ##########################
+
 
 # Do not touch this
 if __name__ == "__main__":
