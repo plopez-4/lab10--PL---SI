@@ -44,15 +44,15 @@ def multiply(a, b):
 
 
 
-def logarithm(a, b):
-    """Returns the logarithm of b with base a.
+def logarithm(base, value):
+    """Returns the logarithm of value with base base.
 
     Raises:
-        ValueError: If a <= 0, b <= 0, or a == 1.
+        ValueError: If base <= 0, value <= 0, or base == 1.
     """
-    if a <= 0 or b <= 0 or a == 1:
+    if base <= 0 or value <= 0 or base == 1:
         raise ValueError("Invalid inputs for logarithm. Base must be > 0, != 1, and value must be > 0.")
-    return math.log(b, a)
+    return math.log(value, base)  # Ensure arguments are correctly passed
 
 
 def exponent(a, b):
